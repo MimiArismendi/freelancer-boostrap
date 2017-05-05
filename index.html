@@ -28,8 +28,9 @@
 <!-- SECCION HEADER -->
 	<section class="container entrada">
 		<section class="row">
-			<div class="col-4"></div>
-			<img class="col-3 profile"src="assets/images/profile.png" alt="profile">
+			<div class="col-12 alignCenter">
+				<img class="profile"src="assets/images/profile.png" alt="profile">
+			</div>
 		</section>
 		<section class="row">
 			<p class="col-12 alignCenter starBootstrap">START BOOTSTRAP</p>
@@ -49,7 +50,7 @@
 	</section>
 
 <!-- SECCION PORTAFOLIO -->
-	<section class="container portafolio">
+	<section class="container portafolio" id=portafolio>
 		<section class="row">
 			<p class="col-12 alignCenter tituloPortafolio">PORTFOLIO</p>
 		</section>
@@ -62,15 +63,22 @@
 				<div class="col-2 estrellaNegra"></div>
 			</div>
 		</section>
+		<section id="fondoModal" class="row">
+			<section class="col-12">
+      	<section class="col-3"></section>
+      	<span class="cerrar">&times;</span>
+      	<img class="imgModal col-6" id="img01">
+      </section>
+    </section>
 		<section class="row imagenes">
-			<img class="col-4" src="assets/images/portfolio/cabin.png" alt="cabaña">
-			<img class="col-4" src="assets/images/portfolio/cake.png" alt="pastel">
-			<img class="col-4" src="assets/images/portfolio/circus.png" alt="circo">
+			<img class="col-4 img" src="assets/images/portfolio/cabin.png" alt="cabaña">
+			<img class="col-4 img" src="assets/images/portfolio/cake.png" alt="pastel">
+			<img class="col-4 img" src="assets/images/portfolio/circus.png" alt="circo">
 		</section>
 		<section class="row imagenes">
-			<img class="col-4" src="assets/images/portfolio/game.png" alt="control">
-			<img class="col-4" src="assets/images/portfolio/safe.png" alt="cajaFuerte">
-			<img class="col-4" src="assets/images/portfolio/submarine.png" alt="submarino">
+			<img class="col-4 img" src="assets/images/portfolio/game.png" alt="control">
+			<img class="col-4 img" src="assets/images/portfolio/safe.png" alt="cajaFuerte">
+			<img class="col-4 img" src="assets/images/portfolio/submarine.png" alt="submarino">
 		</section>
 	</section>
 <!-- SECCION ABOUT -->
@@ -140,12 +148,15 @@
 <!-- SECCION FOOTER -->
 	<section class="container piecito">
 		<section class="row alignCenter">
-			<p class="col-4">LOCATION</p>
-			<p class="col-4">AROUND THE WEB</p>
-			<p class="col-4">ABOUT FREELANCER</p>
+			<div class="col-1"></div>
+			<p class="col-3 titulosPiecito">LOCATION</p>
+			<p class="col-4 titulosPiecito">AROUND THE WEB</p>
+			<p class="col-3 titulosPiecito">ABOUT FREELANCER</p>
+			<div class="col-1"></div>
 		</section>
 		<section class="row alignCenter">
-			<p class="col-4">3481 Melrose Place <br>Beverly Hills, CA 90210</p>
+			<div class="col-1"></div>
+			<p class="col-3 resumenPiecito">3481 Melrose Place <br>Beverly Hills, CA 90210</p>
 			<div class="col-4">
 				<i class="fa fa-facebook circulo redes" aria-hidden="true"></i>
 				<i class="fa fa-google-plus circulo redes" aria-hidden="true"></i>
@@ -153,17 +164,15 @@
 				<i class="fa fa-linkedin circulo redes" aria-hidden="true"></i>
 				<i class="fa fa-dribbble circulo redes"></i>
 			</div>
-			<p class="col-4">Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+			<p class="col-3 resumenPiecito">Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap.</a></p>
 		</section>
-
+	</section>
+	<section class="container footerCont">
+		<section class="row">
+			<footer class="col-12 alignCenter">Copyright © Your Website 2016</footer>
+		</section>
 	</section>
 
-	<i class="fa fa-dribbble"></i>
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-google-plus" aria-hidden="true"></i>
-						<i class="fa fa-star" aria-hidden="true"></i>
 	<!-- Enlaza aquí tu archivo JS -->
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
